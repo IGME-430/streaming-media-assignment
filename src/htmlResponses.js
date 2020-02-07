@@ -10,13 +10,13 @@ const getIndex = (request, response) => {
   response.end();
 };
 
-const getBling = (request, response) => {
+const getPage2 = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/html' });
   response.write(page2);
   response.end();
 };
 
-const getBird = (request, response) => {
+const getPage3 = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/html' });
   response.write(page3);
   response.end();
