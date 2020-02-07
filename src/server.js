@@ -12,15 +12,15 @@ const onRequest = (request, response) => {
       htmlHandler.getIndex(request, response);
       break;
     case '/page2':
-      htmlHandler.getIndex(request, response);
+      htmlHandler.getPage2(request, response);
       break;
     case '/page3':
-      htmlHandler.getIndex(request, response);
+      htmlHandler.getPage3(request, response);
       break;
     case '/party.mp4':
       mediaHandler.getParty(request, response);
       break;
-    case '/bling3.mp3':
+    case '/bling.mp3':
       mediaHandler.getBling(request, response);
       break;
     case '/bird.mp4':
